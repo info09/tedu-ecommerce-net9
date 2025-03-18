@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Ecommerce.Application": {
+      "path": "src/Ecommerce.Application/Ecommerce.Application.abppkg",
+      "folder": "src"
+    },
+    "Ecommerce.Application.Tests": {
+      "path": "test/Ecommerce.Application.Tests/Ecommerce.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Ecommerce.Domain.Shared": {
+      "path": "src/Ecommerce.Domain.Shared/Ecommerce.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Ecommerce.Application.Contracts": {
+      "path": "src/Ecommerce.Application.Contracts/Ecommerce.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Ecommerce.HttpApi": {
+      "path": "src/Ecommerce.HttpApi/Ecommerce.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Ecommerce.HttpApi.Client": {
+      "path": "src/Ecommerce.HttpApi.Client/Ecommerce.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Ecommerce.EntityFrameworkCore.Tests": {
+      "path": "test/Ecommerce.EntityFrameworkCore.Tests/Ecommerce.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Ecommerce.EntityFrameworkCore": {
+      "path": "src/Ecommerce.EntityFrameworkCore/Ecommerce.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Ecommerce.TestBase": {
+      "path": "test/Ecommerce.TestBase/Ecommerce.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Ecommerce.Domain.Tests": {
+      "path": "test/Ecommerce.Domain.Tests/Ecommerce.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Ecommerce.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Ecommerce.HttpApi.Client.ConsoleTestApp/Ecommerce.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Ecommerce.DbMigrator": {
+      "path": "src/Ecommerce.DbMigrator/Ecommerce.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Ecommerce.HttpApi.Host": {
+      "path": "src/Ecommerce.HttpApi.Host/Ecommerce.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Ecommerce.Domain": {
+      "path": "src/Ecommerce.Domain/Ecommerce.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
